@@ -20,14 +20,14 @@ Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transf
    1. Target Domain(Wiki-Img): images folder, and list in .txt format(including similarity). Each line of List is in the format as "filepath similarity" like "geography/05fd84a06ea4f6769436760d8c5986c8.jpg 1". Note: We arrange data into img-txt pairs, so that all the "similarity labels" are set to be "1", which means all the input data are paired.
    1. Target Domain(Wiki-Txt): feature and label, in .lmdb format. In our paper, each text is represented as 3000-d bow vector. Each entry of lmdb includes this vector and its label. Note: Because all the input image and text are paired, the image pathway of network also takes labels from text lmdb during training stage.
 
-Wikipeia dataset can be download via: http://www.svcl.ucsd.edu/projects/crossmodal/ 
-
 3. Training  
  Train network with solver.prototxt and Pre-train model AlexNet/alexnet_cvgj_wiki.caffemodel. Remember to set your paths in model/test.prototxt and solver.prototxt
 
 4. Testing  
    1. Extract common representation with test.prototxt (wiki_img_prob and wiki_txt_prob).  
    1. Compute MAP scores with extracted representations with Evaluate/evaluate_wiki.m. Note: we set an exapmle Label.mat file in this folder. You must create yourselves to match the labels of your test data.
+
+Wikipeia dataset can be download via: http://www.svcl.ucsd.edu/projects/crossmodal/ 
 
 For more information, please refer to our [paper](http://www.icst.pku.edu.cn/mipl/tiki-download_file.php?fileId=400)
 
