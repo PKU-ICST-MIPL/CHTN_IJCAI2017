@@ -12,7 +12,7 @@ Xin Huang, Yuxin Peng, and Mingkuan Yuan, "Cross-modal Common Representation Lea
 
 # Usage
 1. Setup transfer-caffe  
-Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transfer-caffe
+Setup transfer-caffe from the following URL: https://github.com/zhuhan1236/transfer-caffe
 
 2. Data Preparation (Taking Wikipedia as example)  
    According to model.prototxt, you need:
