@@ -21,7 +21,7 @@ Setup transfer-caffe from the following URL:https://github.com/zhuhan1236/transf
    1. Target Domain(Wiki-Txt): feature and label, in .lmdb format. In our paper, each text is represented as 3000-d bow vector. Each entry of lmdb includes this vector and its label. Note: Because all the input image and text are paired, the image pathway of network also takes labels from text lmdb during training stage.
 
 3. Training  
- Train network with solver.prototxt and Pre-train model AlexNet/alexnet_cvgj_wiki.caffemodel. Remember to set your paths in model/test.prototxt and solver.prototxt
+ Train network with solver.prototxt and Pre-train model [AlexNet/alexnet_cvgj_wiki.caffemodel](http://www.icst.pku.edu.cn/mipl/tiki-download_file.php?fileId=1005). Remember to set your paths in model/test.prototxt and solver.prototxt
 
 4. Testing  
    1. Extract common representation with test.prototxt (wiki_img_prob and wiki_txt_prob).  
