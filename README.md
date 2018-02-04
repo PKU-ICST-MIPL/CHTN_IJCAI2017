@@ -1,7 +1,7 @@
 # Introduction
 This is the source code of our IJCAI 2017 paper "Cross-modal Common Representation Learning by Hybrid Transfer Network", Please cite the following paper if you use our code.
 
-Xin Huang, Yuxin Peng, and Mingkuan Yuan, "Cross-modal Common Representation Learning by Hybrid Transfer Network", 26th International Joint Conference on Artificial Intelligence (IJCAI), pp. 1893-1900, Melbourne, Australia, Aug. 19-25, 2017.
+Xin Huang, Yuxin Peng, and Mingkuan Yuan, "Cross-modal Common Representation Learning by Hybrid Transfer Network", 26th International Joint Conference on Artificial Intelligence (IJCAI), pp. 1893-1900, Melbourne, Australia, Aug. 19-25, 2017. [[PDF]](http://www.icst.pku.edu.cn/mipl/tiki-download_file.php?fileId=400)
 
 # Content
 1. model.prototxt: network architecture of training stage
