@@ -1,7 +1,7 @@
 %% ----------Initialization------------
 
 
-load('Label.mat'); %Load labels of test set as teCatAll. Make sure Label.mat matches the label of your test set!
+load('Label.mat'); %Load labels of test set as teCatAll. Make sure Label.mat matches the label of your test set
 
 
 
